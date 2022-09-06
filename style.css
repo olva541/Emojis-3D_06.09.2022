@@ -1,0 +1,136 @@
+body{
+    background-color: #9465F9;
+}
+.wraper
+{
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card
+{
+    position: relative;
+    z-index: -5;
+    justify-content: center;
+    margin-top: 100px; 
+    width: 1070px;
+    height: 668.75px;
+    background-color: #fff;
+    border-radius: 17.83px;
+    overflow: hidden;
+}
+.card header
+{
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 47.56px 72.15px 0 72.15px;
+    /* background-color: #9465F9; */
+    height: 60.41px;
+}
+.card header .menu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 654.59px;
+    align-items: center;
+    height: 38.21px;
+    /* background-color: aqua; */
+}
+.card header .menu .text
+{
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: space-between;
+    width: 346.48px;
+    font-size: 13.37px;
+}
+.menu .btn
+{
+    display: flex;
+    justify-content: space-between;
+    width: 195.38px;
+}
+.menu .btn input:first-child
+{
+    width: 97.42px;
+    height: 37.47px;
+    border: 2.34191px solid #9465F9;
+    border-radius: 11.2412px;
+}
+.menu .btn input:last-child
+{
+    width: 82.44px;
+    background: #000000;
+    border-radius: 11.2412px;
+    color: #fff;
+}
+.card .textos
+{
+    position: absolute;
+    z-index: 5px;
+    top: 214px;
+    left: 47.56px;
+    width: 468.87px;
+}
+.card .textos h1
+{
+    font-size: 47.56px;
+}
+.card .textos p
+{
+    margin-top: 17.79px;
+    font-size: 17.83px;
+    height: 17.83px;
+}
+.card .textos input
+{
+    margin-top: 67px;
+    font-size: 22.48px;
+
+    width: 232.32px;
+    height: 67.45px;
+
+    color: #fff;
+    background: linear-gradient(89.01deg, #FE2B97 5.85%, #FB3AF8 34.97%, #DF42EC 78.13%, #9465F9 105.68%, rgba(217, 217, 217, 0) 105.69%);
+    border: 4.68383px solid #FFFFFF;
+    filter: drop-shadow(0px 18.7353px 32.7868px rgba(1, 1, 1, 0.3));
+    border-radius: 14.9883px;
+}
+.card .images img
+{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+}
+.card .images img:nth-child(2)
+{
+    position: absolute;
+    margin-top: 176px;
+    right: 0px;
+}
+.card .images img:last-child
+{
+    position: absolute;
+    top: 71.33px;
+    right: 16.88px;
+}
+
+
+.wraper .bg
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wraper .bg .line
+{
+    width: 40px;
+    height: 190px;
+    background: red;
+}
