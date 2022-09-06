@@ -125,12 +125,13 @@ body{
 .wraper .bg
 {
     position: absolute;
+    z-index: -15;
     top: 0px;
     left: 0px;
+    width: 100%;
 }
-.wraper .bg .line
+.wraper .bg img
 {
-    width: 40px;
-    height: 190px;
-    background: red;
+    -webkit-filter: blur(250px);
+    width: 100%;
 }
